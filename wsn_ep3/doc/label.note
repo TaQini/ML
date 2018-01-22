@@ -1,0 +1,15 @@
+$ ./lable.py A.label.sample 
+[ 0  1  2  3  4  5  6  7 12 13 16 17 24]
+
+$ ./lable.py B.label.sample
+[ 0  1  2  3  4  5  6  7 12 13 16 17 24]
+
+$ ./lable.py C.label.sample
+[ 0  1  2  3  4 12 13 16 17]
+
+$ ./lable.py D.label.sample
+[ 0  1  2  3  4  6  7 12 13 16 17]
+
+$ ./lable.py E.label.sample
+[ 0  1  2  3  4  5  6  7 12 13 16 17 24]
+
