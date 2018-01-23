@@ -2,7 +2,13 @@
 import numpy as np
 from sys import argv
 from sklearn import tree
+__author__ = 'TaQini'
 
+if len(argv) != 5:
+	print 'usage: '
+	print ' $ ./fit.py training_feature training_label predict_fecture predict_label '
+	print 'example: '
+	print ' $ ./fit.py ALL.feature ALL.label X.feature X.label'
 feature_file = open(argv[1],'ro')
 label_file = open(argv[2],'ro')
 
