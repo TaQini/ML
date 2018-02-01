@@ -1,0 +1,6 @@
+$ cat log1.log | grep '4004' -B 1| head -2
+4018 2660
+4004 2
+
+t = 40000
+min_times = 2660
